@@ -1,0 +1,36 @@
+Candidate Evaluation Test
+Answer Q1 (Mandatory) and either of Q2 or Q3
+Question 1
+Design a tv remote control system and Find a minimum number of clicks to reach each given
+channel.
+Constraints:
+i. Total number of channels: 199
+ii. It will start from 001 if you cross 199.
+iii. Consider parental controls. If there is a "Parental blocked" channel comes while
+traversing, it will be skipped and goes to the next channel.
+Iv: If you directly press the “parantel blocked” channel, it will skip and go to the next
+channel.
+v: Have to traverse the channels in the given order.
+Options to Traverse in the Remote:
+1. You can reach a channel directly by choosing the channel number.
+2. You can press forward
+3. You can press backward
+Example:
+Current channel = 45
+Input channels = [123, 124]
+Number of clicks to reach each channel = 3,1
+To reach channel 123, We need 3 clicks on the remote. But to reach from 123 to 124, I just
+need one click.
+Sample Input:
+Current channel = 001
+List of channels to traverse = [012, 045, 044, 125, 128, 199, 001]
+Parental Blocked = [126, 127, 199]
+Sample Output:
+3, 3, 1, 3, 1, 3, 0
+1Question 2
+int arr[] = {1,3,2,4,6,2,9,6,8,0};
+Write a program to print first duplicate element in given array ?
+Question 3
+There is an array of length 10K and for a given element you have to print "YES" if present else "NO".
+There will be no update to the array but
+search request can be very frequent. What can be an efficient process to solve this problem?
